@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    text-align: center;
+    background-color: #F8EDE3;
+}
+.top-container{
+    padding-top: 50px;
+    background-color: #A2B29F;
+    font-family: 'Merienda', cursive;
+}
+.middle-container{
+    background-color: #F8EDE3;
+}
+.bottom-container{
+    background-color: #BDD2B6;
+}
+h1{
+    margin-top: 0;
+    font-size: 70px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.cloud-1{
+    display: inline-block;
+    position: relative;
+    right: 350px;
+    top: 30px;
+}
+.cloud-2{
+    display: inline-block;
+    position: absolute;
+    right: 300px;
+    bottom: 400px;
+}
+.mountain{
+    display: inline-block;
+    position: relative;
+    margin-top: 150px;
+}
+.skill-1{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-right: 30px;
+}
+.skill-2{
+    width: 150px;
+    height: 150px;
+    float: right;
+    margin-left: 30px;
+}
+.developer{
+    width: 200px;
+    height: 200px;
+}
+hr{
+    border-style: dotted none none none;
+    border-color: grey;
+    border-width: 7px;
+    width: 7%;
+}
+.profile{
+    margin: 50px 0px;
+    padding: 50px 0px;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #EAF6F6;
+    font-size: 20px;
+    background: #66BFBF;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+  
+.btn:hover {
+    background: #54aee3;
+    text-decoration: none;
+}
+
+.contact-me{
+    margin: 50px;
+}
+
+.footer-link{
+    margin: 10px;
+}
